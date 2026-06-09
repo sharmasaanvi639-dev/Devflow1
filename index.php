@@ -30,7 +30,7 @@ function supabase_get_projects($url, $key) {
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Nikhil Honkalaskar | Full Stack Developer</title>
+    <title>Dev Flow | Home Page</title>
     
     <!-- Fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
