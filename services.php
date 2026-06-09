@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Services | Nikhil Honkalaskar</title>
+    <title>Services | Dev Flow</title>
     <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700;800&family=Space+Grotesk:wght@300;400;500;600;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
@@ -335,7 +335,7 @@
 
 <!-- FLOATING WHATSAPP BUTTON -->
 <!-- Replace 1234567890 with your actual WhatsApp number -->
-<a href="https://wa.me/1234567890" class="whatsapp-float" target="_blank" rel="noopener noreferrer">
+<a href="https://wa.me/7057988551" class="whatsapp-float" target="_blank" rel="noopener noreferrer">
     <i class="bi bi-whatsapp"></i>
 </a>
 
