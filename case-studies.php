@@ -62,9 +62,29 @@
 
         /* CASE STUDY CARDS */
         .cs-card { padding: 40px; margin-bottom: 60px; position: relative; overflow: hidden; }
-        .cs-header { display: flex; flex-wrap: align-items-center; gap: 20px; margin-bottom: 30px; }
-        .cs-thumb { width: 150px; height: 100px; border-radius: 15px; object-fit: cover; flex-shrink: 0; border: 1px solid var(--glass-border); }
-        .cs-content-block { flex: 1; min-width: 280px; }
+        
+        /* FIX: Corrected syntax and responsive header */
+        .cs-header { 
+            display: flex; 
+            flex-wrap: wrap; 
+            align-items: center; 
+            gap: 20px; 
+            margin-bottom: 30px; 
+        }
+
+        .cs-thumb { 
+            width: 150px; 
+            height: 100px; 
+            border-radius: 15px; 
+            object-fit: cover; 
+            flex-shrink: 0; 
+            border: 1px solid var(--glass-border); 
+        }
+        .cs-content-block { 
+            flex: 1; 
+            min-width: 280px; 
+        }
+
         .cs-row { display: flex; gap: 30px; margin-bottom: 20px; padding-left: 20px; border-left: 2px solid rgba(255,255,255,0.1); position: relative; }
         .cs-icon { 
             position: absolute; left: -14px; top: 0; 
@@ -178,6 +198,20 @@
             }
             .whatsapp-float:hover::after {
                 display: none; /* Hide tooltip on mobile */
+            }
+
+            /* MOBILE FIXES FOR CASE STUDY HEADER */
+            .cs-header {
+                flex-direction: column; /* Stack image above text */
+                text-align: center;
+                gap: 15px;
+            }
+            .cs-thumb {
+                width: 80px;  /* Smaller image on mobile */
+                height: 60px;
+            }
+            .cs-content-block {
+                min-width: auto; /* Allow text to take available space */
             }
         }
     </style>
@@ -389,7 +423,7 @@
 
 <footer>
     <div class="container text-center">
-        <p class="text-muted mb-0">&copy; 2026 Nikhil Honkalaskar. All Rights Reserved.</p>
+        <p class="text-muted mb-0">&copy; 2026 DevFlow. All Rights Reserved.</p>
     </div>
 </footer>
 
